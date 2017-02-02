@@ -36,22 +36,22 @@ i[[3456]]86-*-kfreebsd*) host_cpu=i386 host_os=linux ;;
 i[[3456]]86-*-darwin*) host_cpu=i386 host_os=darwin ;;
 arm*-*-darwin*) host_cpu=arm host_os=darwin libdl_needed=no ;;
 i386-*-openbsd*) host_os=bsd libdl_needed=no ;;
-i386-*-freebsd*) host_os=bsd libdl_needed=no ;;
+i386-*-freebsd*) host_os=freebsd libdl_needed=no ;;
 i386-*-solaris*) host_cpu=x86 host_os=solaris ;;
 x86_64-*-linux*) host_os=linux ;;
 hppa*-*-linux*) host_cpu=parisc host_os=linux ;;
 mips*-*-linux*) host_cpu=mips host_os=linux ;;
 x86_64-*-openbsd*) host_os=bsd libdl_needed=no ;;
-x86_64-*-freebsd*) host_os=bsd libdl_needed=no ;;
+amd64-*-freebsd*) host_cpu=x86_64 host_os=freebsd libdl_needed=no ;;
 arm*-*-linux*) host_cpu=arm host_os=linux interp_cflags=-marm ;;
 arm*-*-openbsd*) host_cpu=arm host_os=bsd libdl_needed=no ;;
-arm*-*-freebsd*) host_cpu=arm host_os=bsd libdl_needed=no ;;
+arm*-*-freebsd*) host_cpu=arm host_os=freebsd libdl_needed=no ;;
 powerpc*-*-linux*) host_cpu=powerpc host_os=linux ;;
 powerpc*-*-openbsd*) host_cpu=powerpc host_os=bsd libdl_needed=no ;;
-powerpc*-*-freebsd*) host_cpu=powerpc host_os=bsd libdl_needed=no ;;
+powerpc*-*-freebsd*) host_cpu=powerpc host_os=freebsd libdl_needed=no ;;
 powerpc-*-darwin*) host_os=darwin ;;
 sparc*-*-openbsd*) host_cpu=sparc host_os=bsd libdl_needed=no ;;
-sparc*-*-freebsd*) host_cpu=sparc host_os=bsd libdl_needed=no ;;
+sparc*-*-freebsd*) host_cpu=sparc host_os=freebsd libdl_needed=no ;;
 *) AC_MSG_ERROR($host not supported) ;;
 esac
 
