@@ -1,0 +1,123 @@
+/* GNU Classpath installation directory (prefix) */
+#define CLASSPATH_INSTALL_DIR "@CLASSPATH_INSTALL_DIR@"
+
+/* interpreter direct */
+#define DIRECT 1
+
+/* Define to 1 if you have <alloca.h> and it should be used (not on Ultrix).
+	 */
+#cmakedefine HAVE_ALLOCA_H
+
+/* Define to 1 if you have the <endian.h> header file. */
+#cmakedefine HAVE_ENDIAN_H
+
+/* Define if your <locale.h> file defines LC_MESSAGES. */
+#define HAVE_LC_MESSAGES 1
+
+/* Define to 1 if you have the `rt' library (-lrt). */
+#define HAVE_LIBRT 1
+
+/* Define to 1 if you have the <locale.h> header file. */
+#define HAVE_LOCALE_H 1
+
+/* Define to 1 if you have the <memory.h> header file. */
+#define HAVE_MEMORY_H 1
+
+/* JNI stubs support profiling */
+#cmakedefine HAVE_PROFILE_STUBS
+
+/* Define to 1 if you have the `setlocale' function. */
+#define HAVE_SETLOCALE 1
+
+/* Define to 1 if you have the <sys/param.h> header file. */
+#define HAVE_SYS_PARAM_H 1
+
+/* __thread supported by compiler */
+#define HAVE_TLS 1
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#define HAVE_UNISTD_H 1
+
+/* interpreter inlining */
+#cmakedefine INLINING
+
+/* Installation directory (prefix) */
+#define INSTALL_DIR "@CMAKE_INSTALL_PREFIX@"
+
+/* VM support for JSR292 (invokedynamic) */
+#cmakedefine JSR292
+
+/* VM support for JSR308 (type annotations) */
+#cmakedefine JSR308
+
+/* VM support for JSR335 (lambda expressions) */
+#cmakedefine JSR335
+
+/* VM support for JSR901 (method parameter reflection) */
+#cmakedefine JSR901
+
+/* OpenJDK class-library */
+#define OPENJDK_VERSION @OPENJDK_VERSION@
+
+/* interpreter uses prefetching */
+#cmakedefine PREFETCH
+
+/* compute relocatability at runtime */
+#cmakedefine RUNTIME_RELOC_CHECKS
+
+/* java.lang.String uses shared char buffers */
+#cmakedefine SHARED_CHAR_BUFFERS
+
+/* interpreter threaded */
+#cmakedefine THREADED
+
+/* defined if object allocation tracing enabled for debugging */
+#cmakedefine TRACEALLOC
+
+/* defined if GC compaction phase tracing enabled for debugging */
+#cmakedefine TRACECOMPACT
+
+/* defined if interpreter direct-mode tracing enabled for debugging */
+#cmakedefine TRACEDIRECT
+
+/* defined if library loading/unloading tracing enabled for debugging */
+#cmakedefine TRACEDLL
+
+/* defined if object finalisation tracing enabled for debugging */
+#cmakedefine TRACEFNLZ
+
+/* defined if gc tracing enabled for debugging */
+#cmakedefine TRACEGC
+
+/* defined if interpreter inlining tracing enabled for debugging */
+#cmakedefine TRACEINLINING
+
+/* defined if object locking tracing enabled for debugging */
+#cmakedefine TRACELOCK
+
+/* defined if thread creation tracing enabled for debugging */
+#cmakedefine TRACETHREAD
+
+/* interpreter uses caching */
+#cmakedefine USE_CACHE
+
+/* use FFI */
+#cmakedefine USE_FFI
+
+/* use machine-dependent JNI stubs */
+#cmakedefine USE_MD_STUBS
+
+/* use zip */
+#cmakedefine USE_ZIP
+
+/* Version number of package */
+#define VERSION "@version@"
+
+/* major version number */
+#define VERSION_MAJOR @major@
+
+/* minor version number */
+#define VERSION_MINOR @minor@
+
+/* micro version number */
+#define VERSION_MICRO @micro@
